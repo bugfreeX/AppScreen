@@ -1,8 +1,7 @@
 # AppScreen
 
 
-
-![AppScreen](https://github.com/XieXieZhongxi/AppScreen/blob/master/screenshot/656634BC-704D-4B5F-82BD-F54C2FE18584.png)
+![AppScreen](https://github.com/XieXieZhongxi/AppScreen/blob/master/screenshot/88CADA7E-6C39-4928-8089-36B55E7DA625.png)
 
 ## License
 
