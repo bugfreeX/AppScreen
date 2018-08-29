@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5296933220DE2386006531D9 /* AsyncTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296933020DE2386006531D9 /* AsyncTask.m */; };
+		5296933C20DE4791006531D9 /* yy_hud_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933420DE4791006531D9 /* yy_hud_fail.png */; };
+		5296933D20DE4791006531D9 /* yy_hud_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933520DE4791006531D9 /* yy_hud_success@2x.png */; };
+		5296933E20DE4791006531D9 /* yy_hud_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933620DE4791006531D9 /* yy_hud_success@3x.png */; };
+		5296933F20DE4791006531D9 /* yy_hud_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933720DE4791006531D9 /* yy_hud_success.png */; };
+		5296934020DE4791006531D9 /* FNHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5296933820DE4791006531D9 /* FNHUD.m */; };
+		5296934120DE4791006531D9 /* yy_hud_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933920DE4791006531D9 /* yy_hud_fail@2x.png */; };
+		5296934220DE4791006531D9 /* yy_hud_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5296933A20DE4791006531D9 /* yy_hud_fail@3x.png */; };
 		52ED46861FBAA12C00942E7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED46851FBAA12C00942E7D /* AppDelegate.m */; };
 		52ED46881FBAA12C00942E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED46871FBAA12C00942E7D /* Assets.xcassets */; };
 		52ED468B1FBAA12D00942E7D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED46891FBAA12D00942E7D /* MainMenu.xib */; };
@@ -15,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5296933020DE2386006531D9 /* AsyncTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncTask.m; sourceTree = "<group>"; };
+		5296933120DE2386006531D9 /* AsyncTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncTask.h; sourceTree = "<group>"; };
+		5296933420DE4791006531D9 /* yy_hud_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yy_hud_fail.png; sourceTree = "<group>"; };
+		5296933520DE4791006531D9 /* yy_hud_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_hud_success@2x.png"; sourceTree = "<group>"; };
+		5296933620DE4791006531D9 /* yy_hud_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_hud_success@3x.png"; sourceTree = "<group>"; };
+		5296933720DE4791006531D9 /* yy_hud_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yy_hud_success.png; sourceTree = "<group>"; };
+		5296933820DE4791006531D9 /* FNHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNHUD.m; sourceTree = "<group>"; };
+		5296933920DE4791006531D9 /* yy_hud_fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_hud_fail@2x.png"; sourceTree = "<group>"; };
+		5296933A20DE4791006531D9 /* yy_hud_fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yy_hud_fail@3x.png"; sourceTree = "<group>"; };
+		5296933B20DE4791006531D9 /* FNHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNHUD.h; sourceTree = "<group>"; };
+		52A6AD1720F34F8B006EF7ED /* AppScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppScreen.entitlements; sourceTree = "<group>"; };
 		52ED46811FBAA12C00942E7D /* AppScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ED46841FBAA12C00942E7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52ED46851FBAA12C00942E7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -37,6 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5296932F20DE2386006531D9 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				5296933020DE2386006531D9 /* AsyncTask.m */,
+				5296933120DE2386006531D9 /* AsyncTask.h */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		5296933320DE4791006531D9 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				5296933420DE4791006531D9 /* yy_hud_fail.png */,
+				5296933520DE4791006531D9 /* yy_hud_success@2x.png */,
+				5296933620DE4791006531D9 /* yy_hud_success@3x.png */,
+				5296933720DE4791006531D9 /* yy_hud_success.png */,
+				5296933820DE4791006531D9 /* FNHUD.m */,
+				5296933920DE4791006531D9 /* yy_hud_fail@2x.png */,
+				5296933A20DE4791006531D9 /* yy_hud_fail@3x.png */,
+				5296933B20DE4791006531D9 /* FNHUD.h */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		52ED46781FBAA12C00942E7D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +99,8 @@
 		52ED46831FBAA12C00942E7D /* AppScreen */ = {
 			isa = PBXGroup;
 			children = (
+				52A6AD1720F34F8B006EF7ED /* AppScreen.entitlements */,
+				5296933320DE4791006531D9 /* HUD */,
 				52ED46841FBAA12C00942E7D /* AppDelegate.h */,
 				52ED46851FBAA12C00942E7D /* AppDelegate.m */,
 				52ED46951FBAE0C900942E7D /* Settings.h */,
@@ -64,6 +109,7 @@
 				52ED46891FBAA12D00942E7D /* MainMenu.xib */,
 				52ED468C1FBAA12D00942E7D /* Info.plist */,
 				52ED468D1FBAA12D00942E7D /* main.m */,
+				5296932F20DE2386006531D9 /* Task */,
 			);
 			path = AppScreen;
 			sourceTree = "<group>";
@@ -131,6 +177,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5296933D20DE4791006531D9 /* yy_hud_success@2x.png in Resources */,
+				5296933F20DE4791006531D9 /* yy_hud_success.png in Resources */,
+				5296934120DE4791006531D9 /* yy_hud_fail@2x.png in Resources */,
+				5296933E20DE4791006531D9 /* yy_hud_success@3x.png in Resources */,
+				5296933C20DE4791006531D9 /* yy_hud_fail.png in Resources */,
+				5296934220DE4791006531D9 /* yy_hud_fail@3x.png in Resources */,
 				52ED46881FBAA12C00942E7D /* Assets.xcassets in Resources */,
 				52ED468B1FBAA12D00942E7D /* MainMenu.xib in Resources */,
 			);
@@ -146,6 +198,8 @@
 				52ED468E1FBAA12D00942E7D /* main.m in Sources */,
 				52ED46861FBAA12C00942E7D /* AppDelegate.m in Sources */,
 				52ED46971FBAE0C900942E7D /* Settings.m in Sources */,
+				5296933220DE2386006531D9 /* AsyncTask.m in Sources */,
+				5296934020DE4791006531D9 /* FNHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
